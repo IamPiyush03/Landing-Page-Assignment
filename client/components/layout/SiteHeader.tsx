@@ -21,7 +21,7 @@ export default function SiteHeader({ onOpenEnquiry }: HeaderProps) {
     <header className="sticky top-0 z-40 w-full border-b border-border/60 bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between">
         <a href="#" className="flex items-center gap-2 text-lg font-extrabold tracking-tight">
-          <img src="/client/assets/LOGO.png" alt="AdBolt Digital" className="h-8 w-8" />
+          <img src="/assets/LOGO.png" alt="AdBolt Digital" className="h-8 w-8" />
           <span>AdBolt</span>
         </a>
         <nav className="hidden items-center gap-6 md:flex">

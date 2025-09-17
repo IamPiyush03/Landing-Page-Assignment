@@ -55,7 +55,7 @@ export default function Index() {
       {/* Hero */}
       <section
         className="relative border-b border-border/60 bg-[radial-gradient(1200px_600px_at_20%_-20%,hsl(var(--accent)/0.25),transparent),radial-gradient(1000px_500px_at_90%_-10%,hsl(var(--primary)/0.25),transparent)] bg-fixed bg-[length:200%_200%] animate-gradient-shift"
-        style={{ backgroundImage: 'url(/client/assets/BGimage.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}
+        style={{ backgroundImage: 'url(/assets/BGimage.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}
       >
         <div className="container grid gap-10 py-16 md:grid-cols-2 md:py-24">
           <div>
@@ -70,7 +70,7 @@ export default function Index() {
             <div className="absolute -left-10 -top-10 h-32 w-32 rounded-full bg-primary/20 blur-3xl" />
             <div className="relative mx-auto h-64 w-full max-w-md rounded-xl border border-border/60 bg-gradient-to-br from-secondary to-background p-4 shadow-xl md:h-80">
               <div className="grid h-full w-full place-items-center rounded-lg border border-border/50 bg-background/60">
-                <img src="/client/assets/Agency.png" alt="Agency" className="w-full h-full object-cover rounded-lg" />
+                <img src="/assets/Agency.png" alt="Agency" className="w-full h-full object-cover rounded-lg" />
               </div>
             </div>
           </div>
@@ -293,7 +293,7 @@ export default function Index() {
             whileHover={{ scale: 1.05, boxShadow: "0 0 20px rgba(255,59,48,0.6)" }}
             viewport={{ amount: 0.2 }}
           >
-            <img src="/client/assets/Vishal Verma Founder.jfif" alt="Founder Vishal Verma" className="h-36 w-full rounded object-cover transition-transform duration-500 group-hover:scale-105" />
+            <img src="/assets/Vishal Verma Founder.jfif" alt="Founder Vishal Verma" className="h-36 w-full rounded object-cover transition-transform duration-500 group-hover:scale-105" />
             <div className="mt-3">
               <div className="font-semibold">Vishal Verma</div>
               <div className="text-sm text-muted-foreground">Founder & CEO</div>
